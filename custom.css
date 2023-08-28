@@ -1,0 +1,73 @@
+ .line_txt{
+    width: 24%;
+    height: 5px;
+    position: absolute;
+    margin-left: 12vmax;
+    z-index: -2;
+    background-color: #9ca3af;
+  }
+.border_product_web:hover ~ .card_portofolio_web {
+    display: block;
+}
+.border_product_web:hover{
+    cursor: pointer;
+    .text_web_deveploment{
+        color: rgb(106, 21, 191);
+    }
+}
+.card_portofolio_web{
+    display: none;
+    position: absolute;
+    margin-top: -3vmax;
+    margin-left: 75%;
+}
+
+.border_Card_3D_Modeling:hover ~ .card_3D_Modeling {
+    display: block;
+}
+.border_Card_3D_Modeling:hover{
+    cursor: pointer;
+    .text_3D_Modeling{
+        color: rgb(106, 21, 191);
+    }
+}
+.card_3D_Modeling{
+    display: none;
+    position: absolute;
+    margin-top: -3vmax;
+    margin-left: 75%;
+}
+
+.border_Vidio_Editing:hover ~ .card_Editing_Vidio {
+    display: block;
+}
+.border_Vidio_Editing:hover{
+    cursor: pointer;
+    .text_Edit_Vidio{
+        color: rgb(106, 21, 191);
+    }
+}
+.card_Editing_Vidio{
+    display: none;
+    position: absolute;
+    margin-top: -3vmax;
+    margin-left: 75%;
+}
+
+
+.border_Sosial_Media_Grafik_Design:hover ~ .card_Sosial_Media_Grafik_Design {
+    display: block;
+}
+.border_Sosial_Media_Grafik_Design:hover{
+    cursor: pointer;
+    .text_Sosial_Media_Grafik_Design{
+        color: rgb(106, 21, 191);
+    }
+}
+
+.card_Sosial_Media_Grafik_Design{
+    display: none;
+    position: absolute;
+    margin-top: -3vmax;
+    margin-left: 75%;
+}
